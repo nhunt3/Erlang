@@ -1,0 +1,43 @@
+Rotate String:
+
+Scturtle likes strings very much. He is getting bored today, because he has already completed this week's task and doesn't have anything else to do. So he starts left-rotating a string. If the length of the string is , then he will rotate it  times and note down the result of each rotation on a paper. 
+
+For a string  rotations are possible. Let's represent these rotations by . Rotating it once will result in string , rotating it again will result in string  and so on. Formally,  rotation will be equal to . Note that .
+
+Your task is to display all  rotations of string .
+
+For example, if  = abc then it has 3 rotations. They are  = bca,  = cab and  = abc.
+
+Input Format 
+The first line contains an integer, , which represents the number of test cases to follow. Then follows lines, which represent a test case each. 
+Each test case contains a string, , which consists of lower case latin characters  only.
+
+Output Format 
+For each test case, print all the rotations, , separated by a space.
+
+Constraints 
+ 
+ 
+ will consist of lower case latin character,  only.
+
+Sample Input
+
+5
+abc
+abcde
+abab
+aaa
+z
+Sample Output
+
+bca cab abc
+bcdea cdeab deabc eabcd abcde
+baba abab baba abab
+aaa aaa aaa
+z
+Explanation 
+Test case #1: This case is mentioned in the problem statment. 
+Test case #2: Rotations of abcde are: bcdea -> cdeab -> deabc -> eabcd -> abcde. 
+Test case #3: Rotations of abab are: baba -> abab -> baba -> abab. 
+Test case #4: All three rotations will result into same string. 
+Test case #5: Only one rotation is possible, and that will result into original string.

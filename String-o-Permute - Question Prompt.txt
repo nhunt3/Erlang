@@ -1,0 +1,38 @@
+Kazama gave Shaun a string of even length, and asked him to swap the characters at the even positions with the next character. Indexing starts at .
+
+Formally, given a string str of length  where  is even, Shaun has to swap the characters at position and , where {}.
+
+For example, if str = "abcdpqrs", . We have to swap the characters at positions: 
+{}
+
+So, answer will be "badcqpsr".
+
+Input Format
+
+The first line contains an integer, , the number of test cases. 
+ lines follow, each containing some string str.
+
+Output Format
+
+For each test case, print the new string as explained in the problem statement.
+
+Constraints
+
+ 
+ 
+ is even 
+str consists of lowercase English characters, {}.
+
+Sample Input
+
+2
+abcdpqrs
+az
+Sample Output
+
+badcqpsr
+za
+Explanation
+
+Test case #00: This is the same example as mentioned in the problem statement. 
+Test case #01: Here  is , so we have to swap the characters at position  only.
